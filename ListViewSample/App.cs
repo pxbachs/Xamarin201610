@@ -11,7 +11,7 @@ namespace ListViewSample.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<Core.ViewModels.FirstViewModel>();
+			RegisterAppStart<Core.ViewModels.FirstViewModel>();
         }
     }
 }

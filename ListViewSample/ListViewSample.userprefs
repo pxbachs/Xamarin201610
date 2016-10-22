@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{510FA93D-27EA-4F92-8CB7-A12DF5E42C6A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/FirstViewModel.cs">
     <Files>
-      <File FileName="Models/Category.cs" Line="18" Column="20" />
-      <File FileName="Droid/Views/FirstView.cs" Line="13" Column="36" />
-      <File FileName="ViewModels/FirstViewModel.cs" Line="27" Column="56" />
+      <File FileName="ViewModels/FirstViewModel.cs" Line="19" Column="82" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

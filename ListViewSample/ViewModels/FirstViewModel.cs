@@ -15,10 +15,10 @@ namespace ListViewSample.Core.ViewModels
 		{
 			ListCategory = new ObservableCollection<Category>();
 
-			ListCategory.Add(new Category("Category 1", "Description 1", "images/cat_icon1.png"));
-			ListCategory.Add(new Category("Category 2", "Description 2", "images/cat_icon2.png"));
-			ListCategory.Add(new Category("Category 3", "Description 3", "images/cat_icon3.png"));
-			ListCategory.Add(new Category("Category 4", "Description 4", "images/cat_icon4.png"));
+			ListCategory.Add(new Category("Category 1", "Description 1", "images/img_1_tb.jpg"));
+			ListCategory.Add(new Category("Category 2", "Description 2", "images/img_2_tb.jpg"));
+			ListCategory.Add(new Category("Category 3", "Description 3", "images/img_3_tb.jpg"));
+			ListCategory.Add(new Category("Category 4", "Description 4", "images/img_1_tb.jpg"));
 
 		}
 
@@ -36,6 +36,7 @@ namespace ListViewSample.Core.ViewModels
 		void DoSelectedCategory(Category obj)
 		{
 			System.Diagnostics.Debug.WriteLine("Category Selected: " + obj.Name);
+			ShowViewModel<CategoryViewModel>();
 		}
 
 }

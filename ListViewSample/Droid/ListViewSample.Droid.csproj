@@ -82,6 +82,7 @@
     <Compile Include="Setup.cs" />
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="DebugTrace.cs" />
+    <Compile Include="Views\CategoryView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -103,6 +104,16 @@
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
     <AndroidResource Include="Resources\layout\FirstView.axml" />
     <AndroidResource Include="Resources\drawable\splash.png" />
+    <AndroidResource Include="Resources\layout\category_item.axml" />
+    <AndroidResource Include="Resources\layout\CategoryView.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\images\img_1_tb.jpg" />
+    <AndroidAsset Include="Assets\images\img_2_tb.jpg" />
+    <AndroidAsset Include="Assets\images\img_3_tb.jpg" />
+    <AndroidAsset Include="Assets\images\img_frame_1_tb.png" />
+    <AndroidAsset Include="Assets\images\img_frame_2_tb.png" />
+    <AndroidAsset Include="Assets\images\img_frame_3_tb.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

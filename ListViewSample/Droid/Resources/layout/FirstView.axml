@@ -9,5 +9,6 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         local:MvxBind="ItemsSource ListCategory; ItemClick CategorySelected"
+		local:MvxItemTemplate="@layout/category_item"
 		/>
 </LinearLayout>

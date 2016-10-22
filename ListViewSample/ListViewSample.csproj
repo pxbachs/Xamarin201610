@@ -32,6 +32,7 @@
     <Compile Include="ViewModels\FirstViewModel.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="ViewModels\CategoryViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
