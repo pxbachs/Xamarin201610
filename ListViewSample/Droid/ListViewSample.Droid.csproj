@@ -106,6 +106,7 @@
     <AndroidResource Include="Resources\drawable\splash.png" />
     <AndroidResource Include="Resources\layout\category_item.axml" />
     <AndroidResource Include="Resources\layout\CategoryView.axml" />
+    <AndroidResource Include="Resources\layout\category_item_2.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\images\img_1_tb.jpg" />
@@ -114,6 +115,9 @@
     <AndroidAsset Include="Assets\images\img_frame_1_tb.png" />
     <AndroidAsset Include="Assets\images\img_frame_2_tb.png" />
     <AndroidAsset Include="Assets\images\img_frame_3_tb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\raw\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
