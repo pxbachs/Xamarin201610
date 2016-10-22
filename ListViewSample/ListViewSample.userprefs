@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{510FA93D-27EA-4F92-8CB7-A12DF5E42C6A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViewModels/FirstViewModel.cs">
+    <Files>
+      <File FileName="Models/Category.cs" Line="18" Column="20" />
+      <File FileName="Droid/Views/FirstView.cs" Line="13" Column="36" />
+      <File FileName="ViewModels/FirstViewModel.cs" Line="27" Column="56" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ListViewSample.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.ItemProperties.ListViewSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A17B960B-9DA2-42FA-8B6D-07BE291FFC96" />
+</Properties>
