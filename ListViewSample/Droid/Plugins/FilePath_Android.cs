@@ -18,5 +18,10 @@ namespace ListViewSample.Droid.Plugins
 			var p = Path.Combine("/sdcard/Download/","testdb.sql");
 			return p;
 		}
+
+		public void DeleteDB(string path)
+		{
+			File.Delete(path);
+		}
 	}
 }

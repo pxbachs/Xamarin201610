@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{510FA93D-27EA-4F92-8CB7-A12DF5E42C6A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="DAL/TCDAL.cs">
     <Files>
-      <File FileName="Plugins/IFilePath.cs" Line="1" Column="1" />
-      <File FileName="ViewModels/FirstViewModel.cs" Line="15" Column="3" />
-      <File FileName="Droid/Plugins/FilePath_Android.cs" Line="18" Column="24" />
-      <File FileName="Droid/Setup.cs" Line="33" Column="34" />
+      <File FileName="Plugins/IFilePath.cs" Line="7" Column="28" />
+      <File FileName="ViewModels/FirstViewModel.cs" Line="21" Column="140" />
+      <File FileName="Droid/Plugins/FilePath_Android.cs" Line="22" Column="35" />
+      <File FileName="Droid/Setup.cs" Line="33" Column="4" />
       <File FileName="Plugins/mvvm_plugin_todo.txt" Line="8" Column="42" />
-      <File FileName="DAL/TCDAL.cs" Line="6" Column="3" />
+      <File FileName="DAL/TCDAL.cs" Line="37" Column="12" />
+      <File FileName="Models/Category.cs" Line="13" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

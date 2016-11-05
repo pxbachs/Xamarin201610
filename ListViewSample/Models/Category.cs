@@ -8,7 +8,9 @@ namespace ListViewSample.Core.Models
 		public string Desc { get; set; }
 		public string Icon { get; set; }
 
-		static int sid = 0; 
+		static int sid = 0;
+		public Category() { 
+		}
 		public Category(string name, string desc, string icon) {
 			this.Id = sid;
 			sid++;
