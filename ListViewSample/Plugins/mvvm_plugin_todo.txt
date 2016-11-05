@@ -1,0 +1,8 @@
+﻿1. define interface -> PCL (sharecode)
+2. Implement cho tung platform
+3. Register implementation cho Container
+	- setup.cs
+	-protected override void InitializeFirstChance()
+	- Mvx.RegisterType<IFilePath, FilePath_Android>();
+4. Call API
+	IFilePath fp = Mvx.Resolve<IFilePath>();

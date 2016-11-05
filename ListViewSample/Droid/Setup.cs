@@ -2,6 +2,9 @@ using Android.Content;
 using MvvmCross.Droid.Platform;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
+using MvvmCross.Platform;
+using ListViewSample.Plugins;
+using ListViewSample.Droid.Plugins;
 
 namespace ListViewSample.Droid
 {
@@ -20,5 +23,13 @@ namespace ListViewSample.Droid
         {
             return new DebugTrace();
         }
+
+		protected override void InitializeFirstChance()
+		{
+			base.InitializeFirstChance();
+
+			//register dependancies
+			Mvx.RegisterType<IFilePath, FilePath_Android>();
+		}
     }
 }

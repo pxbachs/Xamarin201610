@@ -21,5 +21,13 @@ namespace ListViewSample.iOS.Views
 
 			//throw new NotImplementedException();
 		}
+
+		//Define height of Cell follow by type data for cell view
+		public override nfloat GetHeightForRow(UITableView tableView, NSIndexPath indexPath)
+		{
+			var item = GetItemAt(indexPath);
+			return 150;
+
+		}
 	}
 }

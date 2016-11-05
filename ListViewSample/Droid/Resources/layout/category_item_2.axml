@@ -9,7 +9,7 @@
         p1:src="@android:drawable/ic_menu_gallery"
         p1:layout_width="100dp"
         p1:layout_height="100dp"
-        local:MvxBind="AssetImagePath Icon"
+        local:MvxBind="ImageUrl Icon"
         p1:id="@+id/img_category_icon_2" />
     <TextView
         p1:textAppearance="?android:attr/textAppearanceLarge"

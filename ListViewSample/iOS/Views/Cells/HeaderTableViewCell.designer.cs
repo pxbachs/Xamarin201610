@@ -9,33 +9,25 @@ using System.CodeDom.Compiler;
 
 namespace ListViewSample.iOS
 {
-	[Register ("CategoryTableViewCell")]
-	partial class CategoryTableViewCell
+	[Register ("HeaderTableViewCell")]
+	partial class HeaderTableViewCell
 	{
 		[Outlet]
-		UIKit.UILabel Desc { get; set; }
-
-		[Outlet]
-		UIKit.UIImageView ImageIcon { get; set; }
+		UIKit.UIButton Button { get; set; }
 
 		[Outlet]
 		UIKit.UILabel Title { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (ImageIcon != null) {
-				ImageIcon.Dispose ();
-				ImageIcon = null;
-			}
-
 			if (Title != null) {
 				Title.Dispose ();
 				Title = null;
 			}
 
-			if (Desc != null) {
-				Desc.Dispose ();
-				Desc = null;
+			if (Button != null) {
+				Button.Dispose ();
+				Button = null;
 			}
 		}
 	}
