@@ -1,7 +1,9 @@
 ﻿using System;
+using ListViewSample.Core.DAL;
+
 namespace ListViewSample.Core.Models
 {
-	public class Category
+	public class Category : ITCEntity
 	{
 		public int Id { get; set;}
 		public string Name { get; set; }

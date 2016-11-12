@@ -30,4 +30,9 @@
         p1:layout_below="@id/txt_category_name"
         p1:textColor="#ff64dd17"
         p1:paddingTop="5dp" />
+	<Button p1:text="Add"
+			p1:layout_height="wrap_content"
+			p1:layout_width="wrap_content"
+			local:MvxBind="Click $parent.DeleteCommand"
+		></Button>
 </RelativeLayout>

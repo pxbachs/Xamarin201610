@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{510FA93D-27EA-4F92-8CB7-A12DF5E42C6A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DAL/TCDAL.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DAL/TCRepository.cs">
     <Files>
-      <File FileName="Plugins/IFilePath.cs" Line="7" Column="28" />
-      <File FileName="ViewModels/FirstViewModel.cs" Line="21" Column="140" />
-      <File FileName="Droid/Plugins/FilePath_Android.cs" Line="22" Column="35" />
-      <File FileName="Droid/Setup.cs" Line="33" Column="4" />
-      <File FileName="Plugins/mvvm_plugin_todo.txt" Line="8" Column="42" />
-      <File FileName="DAL/TCDAL.cs" Line="37" Column="12" />
-      <File FileName="Models/Category.cs" Line="13" Column="3" />
+      <File FileName="Plugins/IFilePath.cs" Line="9" Column="3" />
+      <File FileName="DAL/TCRepository.cs" Line="71" Column="5" />
+      <File FileName="DAL/ITCRepository.cs" Line="10" Column="8" />
+      <File FileName="Models/ExpenseItem.cs" Line="1" Column="1" />
+      <File FileName="Models/IncomeItem.cs" Line="8" Column="4" />
+      <File FileName="DAL/ITCEntity.cs" Line="2" Column="34" />
+      <File FileName="App.cs" Line="17" Column="20" />
+      <File FileName="Models/Category.cs" Line="6" Column="30" />
+      <File FileName="ViewModels/FirstViewModel.cs" Line="37" Column="10" />
+      <File FileName="Droid/Views/FirstView.cs" Line="17" Column="1" />
+      <File FileName="DAL/CategoryRepository.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -15,6 +19,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ListViewSample.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.ItemProperties.ListViewSample.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
   <MonoDevelop.Ide.ItemProperties.ListViewSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A17B960B-9DA2-42FA-8B6D-07BE291FFC96" />
 </Properties>

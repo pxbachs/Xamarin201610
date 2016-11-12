@@ -1,7 +1,7 @@
 using System;
 using System.Collections.ObjectModel;
+using ListViewSample.Core.DAL;
 using ListViewSample.Core.Models;
-using ListViewSample.DAL;
 using ListViewSample.Plugins;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
@@ -29,8 +29,34 @@ namespace ListViewSample.Core.ViewModels
 			//imple
 			//instance
 
-			var TCDAL = new TCDAL();
+			//var TCDAL = Mvx.Resolve<IBaseRepository<Category>>();
+			var TCDAL = Mvx.Resolve<ICategoryRepository>();
+
+			TCDAL.Add(new Category("Category 1", "Description 1", "http://img.f29.vnecdn.net/2016/10/22/anhmoi2-3086-1477115773_490x294.jpg"));
+
+
+			var cats = TCDAL.AllItems();
+			foreach(var it in cats) {
+				System.Diagnostics.Debug.WriteLine(it.Name);
+			}
 		}
+
+		private MvxCommand<Category> _DeleteCommand;
+		public System.Windows.Input.ICommand DeleteCommand
+		{
+			get
+			{
+				_DeleteCommand = _DeleteCommand ?? new MvxCommand<Category>(DoDeleteCategory);
+				return _DeleteCommand;
+			}
+		}
+
+		void DoDeleteCategory(Category obj)
+		{
+			System.Diagnostics.Debug.WriteLine("DoDeleteCategory: " + obj.Name);
+			ShowViewModel<CategoryViewModel>();
+		}
+
 
 
 		private MvxCommand<Category> _CategorySelectedCommand;

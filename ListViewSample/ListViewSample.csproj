@@ -37,7 +37,12 @@
     <Compile Include="ViewModels\GroupedListViewModel.cs" />
     <Compile Include="Models\Group.cs" />
     <Compile Include="Plugins\IFilePath.cs" />
-    <Compile Include="DAL\TCDAL.cs" />
+    <Compile Include="DAL\BaseRepository.cs" />
+    <Compile Include="DAL\IBaseRepository.cs" />
+    <Compile Include="Models\ExpenseItem.cs" />
+    <Compile Include="Models\IncomeItem.cs" />
+    <Compile Include="DAL\ITCEntity.cs" />
+    <Compile Include="DAL\CategoryRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

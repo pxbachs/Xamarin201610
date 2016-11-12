@@ -4,11 +4,22 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-	<CategoryListView
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Add"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <CategoryListView
         android:id="@+id/catalog_listview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         local:MvxBind="ItemsSource ListCategory; ItemClick CategorySelected"
-		local:MvxItemTemplate="@layout/category_item"
-		/>
+        local:MvxItemTemplate="@layout/category_item" />
 </LinearLayout>
